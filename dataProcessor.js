@@ -7,7 +7,7 @@ async function dataProcessor() {
         const userName = process.env.USER_NAME || 'User';
         const weeklyGoal = parseInt(process.env.WEEKLY_GOAL) || 0;
 
-        console.log(`Hello ${userName}!`);
+        console.log(`Hello ${Nyjuel}!`);
         console.log('Processing your health and workout data...\n');
 
         const healthCount = await readHealthData('./data/health-metrics.json');
