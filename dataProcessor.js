@@ -5,9 +5,9 @@ const { workoutCalculator } = require('./workoutReader');
 async function dataProcessor() {
     try {
         const userName = process.env.USER_NAME || 'User';
-        const weeklyGoal = parseInt(process.env.WEEKLY_GOAL) || 0;
+        const weeklyGoal = parseInt(process.env.WEEKLY_GOAL) || 150;
 
-        console.log(`Hello ${Nyjuel}!`);
+        console.log(`Hello ${userName}!`);
         console.log('Processing your health and workout data...\n');
 
         const healthCount = await readHealthData('./data/health-metrics.json');
