@@ -7,7 +7,7 @@
     "test": "jest"
   },
   "dependencies": {
-    
+    "csv-parser": "^3.2.0"
   },
   "devDependencies": {
     "jest": "^29.7.0"
